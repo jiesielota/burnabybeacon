@@ -1,0 +1,58 @@
+.thumb-img {
+    cursor: pointer;
+}
+
+/* Author */
+.ast-author-avatar {
+    width: 30%;
+}
+.ast-author-avatar img{
+    height: auto;
+	width: 80%;
+}
+/*font*/
+
+p.excerpt,
+p.sub-header,
+.sub-header,
+.sub-header p ,
+.single-article .the-content p,
+.single-article .the-content ul,
+.single-article .the-content ol,
+.subheading,
+.sub-heading {
+    font-family: 'Montserrat' !important;
+    font-weight: 500 !important;
+    font-size: 1.2rem !important;
+    line-height: 1.7rem !important;
+    letter-spacing: -0.4px !important;
+}
+
+@media(max-width: 768px) {
+	.social {
+		padding: 0 !important;
+		margin-top: 20px;
+	}
+	.social > a {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 736px){
+	.thumb-img {
+		width: 100%;
+	}
+}
+
+@media(max-width: 500px) {
+	p.excerpt,
+	p.sub-header,
+	.sub-header,
+	.sub-header p ,
+	.single-article .the-content p,
+	.subheading,
+	.sub-heading {
+		font-size: 1.3rem !important;
+		line-height: 2rem !important;
+	}
+}

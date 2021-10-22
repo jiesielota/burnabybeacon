@@ -1,0 +1,11 @@
+div[data-name="photoby"].acf-field {
+    display: none;
+}
+
+@media screen and (min-width: 1500px){
+    #wpbody {
+        max-width: 1500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
